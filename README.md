@@ -3,6 +3,7 @@
 This guide will help you start up a Taiko RPC node
 
 # Prerequisites
+
 Docker is installed and running.
 Git is installed.
 If using Windows, you should install Git BASH or WSL to use as your terminal.
