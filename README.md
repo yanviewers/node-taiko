@@ -1,9 +1,7 @@
 # node-taiko
-
 This guide will help you start up a Taiko RPC node
 
 # Prerequisites
-
 Docker is installed and running.
 Git is installed.
 If using Windows, you should install Git BASH or WSL to use as your terminal.
@@ -41,7 +39,6 @@ Depending on your firewall setup, you can do a few things. You can try:
 - Using the private ip address of your machine (use something like ip addr show to get this ip address)
 
 ### Finally, set the following L1 node endpoints in your .env file:
-
 - L1_ENDPOINT_HTTP
 - L1_ENDPOINT_WS
   
