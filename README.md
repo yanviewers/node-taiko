@@ -82,6 +82,8 @@ curl http://localhost:8547 \
   -H "Content-Type: application/json" \
   --data '{"method":"eth_blockNumber","params":[],"id":1,"jsonrpc":"2.0"}'
 ```
+
+
 3. If the blockNumber response value is 0 or not growing, check the Taiko L2 logs here:
 ```
 docker compose logs -f
